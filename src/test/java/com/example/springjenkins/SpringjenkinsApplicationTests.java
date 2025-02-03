@@ -11,7 +11,7 @@ import static org.junit.jupiter.api.Assertions.assertEquals;
 class SpringjenkinsApplicationTests {
 	public static Logger logger= LoggerFactory.getLogger(SpringjenkinsApplicationTests.class);
 	@Test
-	void contextLoads() {
+	 contextLoads() {
 		logger.info("test execute");
 		logger.info("test execute second");
 		assertEquals(true,true);
